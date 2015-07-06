@@ -33,17 +33,7 @@ static const uint64_t DEFAULT_S = 3;    /* 8 blocks per set */
 static const char READ = 'r';
 static const char WRITE = 'w';
 
-int addrTag(int address);
-int addrIndex(int address);
-int addrOffset(int address);
-
-typedef struct 
-{
-    int valid;
-    int tag;
-    int dirty;
-    int used;
-} addressStruct;
+/*addition*/
 
 
 #endif
